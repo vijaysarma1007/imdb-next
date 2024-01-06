@@ -4,7 +4,7 @@ export default function Results({ results }) {
   return (
     <div>
       {results.map((result) => {
-        return <h2>{result.title}</h2>;
+        return <h2 key={result.id}>{result.title}</h2>;
       })}
     </div>
   );
