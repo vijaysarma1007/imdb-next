@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
           <NavBar />
           <SearchBox />
           {children}
+          <p className="text-[10px] dark:text-white text-black text-center">*This website is created by Srirangam Vijay Mohan, Educational Purposes Only</p>
         </Providers>
       </body>
     </html>
