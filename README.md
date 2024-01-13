@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Set up in your local
+
+if you want to run this code in your local, then follow the below steps to add env keys in your project root directory
+
+- create a file with name ".env.local"
+- sign up and get your api keys from [Movies Database](https://www.themoviedb.org/)
+- store the key in .env.local using key "API_KEY".
